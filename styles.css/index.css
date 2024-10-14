@@ -54,7 +54,7 @@ color: rgb(13, 19, 33)
   max-width: 1920px;
   height: 652px;
   border: 2px solid rebeccapurple;
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("../assets/Hero-bg.png");
   background-size: cover;
 }
 .banner-innertext{
@@ -251,8 +251,9 @@ color: black;
   height: 313px;
   /* border: 1px solid red; */
   border-radius: 16px;
-  background-image: url("/assets/handshake.jpg");
+  background-image: url("../assets/handshake.jpg");
   background-size: cover;
+  background-position: center;
   padding: 64px 48px 64px 48px;
   margin-top: 50px;
 }
@@ -319,4 +320,8 @@ padding: 10px 150px;
 }
 .f-img{
   padding: 10px 30px;
+  
+}
+.footer img{
+  margin-left: 20px;
 }
